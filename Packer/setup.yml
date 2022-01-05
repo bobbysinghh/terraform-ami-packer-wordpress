@@ -1,0 +1,4 @@
+- hosts: tag_Name_Wordpress_1
+  vars_files: database_config_variables
+  roles:  
+    - role: nginx-wordpress
